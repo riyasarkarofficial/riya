@@ -1,92 +1,97 @@
-name: Generate GitHub Contributions Snake Animation (robust)
+name: GitHub Snake Game
+
+
 
 on:
-  workflow_dispatch:
+
+  # Schedule the workflow to run daily at midnight UTC
+
   schedule:
-    - cron: "0 0 * * *"  # daily at midnight UTC
+
+    - cron: "0 0 * * *"
+
+
+
+  # Allow manual triggering of the workflow
+
+  workflow_dispatch:
+
+
+
+  # Trigger the workflow on pushes to the main branch
+
   push:
+
     branches:
+
       - main
 
+
+
 jobs:
+
   generate:
+
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+
+    timeout-minutes: 10
+
+
 
     steps:
-      - name: Checkout repository (full)
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
+
+      # Step 1: Checkout the repository
+
+      - name: Checkout Repository
+
+        uses: actions/checkout@v3
+
+
+
+      # Step 2: Generate the snake animations
 
       - name: Generate GitHub Contributions Snake Animations
-        id: gen_snake
+
         uses: Platane/snk@v3
+
         with:
+
+          # GitHub username to generate the animation for
+
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist
 
-      - name: Show generated files (debug)
-        run: |
-          echo "=== ls root ==="
-          ls -la || true
-          echo "=== ls dist ==="
-          if [ -d dist ]; then ls -la dist || true; else echo "dist not found"; fi
 
-      - name: Upload generated files as artifact (debug)
-        if: ${{ always() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: snake-dist
-          path: dist
 
-      - name: Prepare to push to output (only if dist has content)
-        if: ${{ always() }}
+          # Define the output files and their configurations
+
+          outputs: |
+
+            dist/github-snake.svg
+
+            dist/github-snake-dark.svg?palette=github-dark
+
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
         env:
+
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euo pipefail
 
-          if [ ! -d "dist" ]; then
-            echo "No dist directory — skipping push."
-            exit 0
-          fi
 
-          if [ -z "$(ls -A dist 2>/dev/null || true)" ]; then
-            echo "dist exists but is empty — skipping push."
-            exit 0
-          fi
 
-          echo "dist has files. Preparing to push to output branch..."
+      # Step 3: Deploy the generated files to the 'output' branch
 
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Deploy to Output Branch
 
-          # create or update output branch
-          if git ls-remote --exit-code --heads origin output; then
-            echo "output branch exists: fetching..."
-            git fetch origin output
-            git checkout output
-            git rm -rf . || true
-          else
-            echo "Creating orphan output branch..."
-            git checkout --orphan output
-            git rm -rf . || true
-          fi
+        uses: peaceiris/actions-gh-pages@v3
 
-          # copy produced files
-          cp -r dist/* .
+        with:
 
-          echo "Files to commit:"
-          ls -la
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
-          git add -A
-          if git commit -m "chore: update contribution snake [ci skip]" >/dev/null 2>&1; then
-            echo "Committed changes"
-          else
-            echo "No changes to commit (files identical)."
-          fi
+          publish_dir: ./dist
 
-          # push changes
-          git push --force --set-upstream origin output
+          publish_branch: output
+
+          # Optionally, you can set a custom commit message
+
+          commit_message: "Update snake animation [skip ci]"
