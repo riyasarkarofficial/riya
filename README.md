@@ -15,7 +15,6 @@
 ---
 
 ## 🛠️ Tech Stack  
-
 ### **Languages & Frameworks**
 ![Python](https://img.shields.io/badge/Python-FFD43B?logo=python&logoColor=blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
@@ -36,7 +35,6 @@ Image Segmentation • Classification • Augmentation (Albumentations)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
 ---
 ## 🚀 Featured Projects  
@@ -48,7 +46,7 @@ Image Segmentation • Classification • Augmentation (Albumentations)
 
 ### 🧪 **Binary Image Classification (EfficientNet-B0)**
 - Malignant vs Benign classification  
-- Achieved >98% benchmark accuracy  
+- Achieved >99% benchmark accuracy  
 ---
 
 
