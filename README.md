@@ -14,14 +14,6 @@ Passionate about building reliable ML pipelines in PyTorch
 
 ---
 
-## 📊 GitHub Stats  
-
-<img src="https://github-readme-stats.vercel.app/api?username=riyasarkarofficial&show_icons=true&theme=radical" height="160"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=riyasarkarofficial&theme=radical" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=riyasarkarofficial&layout=compact&theme=radical" height="150"/>
-
----
-
 ## 🛠️ Tech Stack  
 
 ### Languages & Frameworks  
