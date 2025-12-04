@@ -1,12 +1,11 @@
-# riya
-## Hi 👋, I'm Rai  
+
+## Hi 👋, I'm RIYA
 ### An AI/ML Engineer from Kolkata, India
 
 ---
 
 ### 📊 GitHub Stats  
-![Rai's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=radical)
+![GitHub Stats](https://github.com/riyasarkarofficial?tab=repositories)  
 
 ---
 
