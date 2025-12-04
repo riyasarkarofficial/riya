@@ -3,25 +3,15 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&color=FF5733&width=800&lines=Hi+👋,+I'm+Riya;AI/ML+Engineer,+India;Deep+Learning+%7C+Medical+Image+Analysis)](https://git.io/typing-svg)
 
 ---
-
 ## 🧑‍💻 About Me  
 - AI/ML Engineer with 2 years of experience  
 - MTech researcher specializing in **deep learning & medical image segmentation**  
 - Focus on U-Net, U-Net++, U-Net3+, EfficientNet, CNNs, and attention mechanisms  
-- Passionate about building reliable ML pipelines in PyTorch  
-
----
-
-## 🏆 GitHub Trophies  
-![Trophies](https://github-profile-trophy.vercel.app/?username=riyasarkarofficial&theme=radical&margin-w=10&no-frame=true)
-
 ---
 
 ## 📊 GitHub Stats  
-
-![Riya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=riyasarkarofficial&show_icons=true&theme=radical)  
+ 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=riyasarkarofficial&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=riyasarkarofficial&layout=compact&theme=radical)
 
 ---
 
