@@ -58,7 +58,6 @@ Segmentation • Classification • Albumentations
 ---
 
 ## 🐍 Contribution Snake  
-## 🐍 Contribution Snake
 
 <!-- Dark mode -->
 ![GitHub Snake Dark](https://raw.githubusercontent.com/riyasarkarofficial/riyasarkarofficial/output/github-snake-dark.svg#gh-dark-mode-only)
