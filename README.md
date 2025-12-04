@@ -13,7 +13,7 @@
 ---
 
 ## 📊 GitHub Stats  
-![Rai's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)  
+![Riya's GitHub Stats]([https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical](https://github.com/riyasarkarofficial))  
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=your-github-username&theme=radical)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=radical)
 
