@@ -58,8 +58,13 @@ Segmentation • Classification • Albumentations
 ---
 
 ## 🐍 Contribution Snake  
-![Snake animation](https://raw.githubusercontent.com/riyasarkarofficial/riyasarkarofficial/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![Snake animation](https://raw.githubusercontent.com/riyasarkarofficial/riyasarkarofficial/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+## 🐍 Contribution Snake
+
+<!-- Dark mode -->
+![GitHub Snake Dark](https://raw.githubusercontent.com/riyasarkarofficial/riyasarkarofficial/output/github-snake-dark.svg#gh-dark-mode-only)
+
+<!-- Light mode -->
+![GitHub Snake Light](https://raw.githubusercontent.com/riyasarkarofficial/riyasarkarofficial/output/github-snake.svg#gh-light-mode-only)
 
 
 
