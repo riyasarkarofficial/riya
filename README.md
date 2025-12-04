@@ -50,8 +50,6 @@ Image Segmentation • Classification • Augmentation (Albumentations)
 - Malignant vs Benign classification  
 - Achieved >98% benchmark accuracy  
 ---
-## 👁️ Visitor Count  
-![Visitor Count](https://komarev.com/ghpvc/?username=your-github-username&color=blue)
 
 
 
