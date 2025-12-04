@@ -14,11 +14,6 @@ Passionate about building reliable ML pipelines in PyTorch
 
 ---
 
-## 🏆 GitHub Trophies  
-![Trophies](https://github-profile-trophy.vercel.app/?username=riyasarkarofficial&theme=radical&no-frame=true&margin-w=10)
-
----
-
 ## 📊 GitHub Stats  
 
 <img src="https://github-readme-stats.vercel.app/api?username=riyasarkarofficial&show_icons=true&theme=radical" height="160"/>
