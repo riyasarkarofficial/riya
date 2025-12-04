@@ -1,28 +1,48 @@
 name: Generate Snake
 
+# We allow manual runs + scheduled runs
 on:
+  workflow_dispatch:    # lets you run it manually from Actions UI
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"  # every 12 hours (optional)
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        
-      - name: Generate Snake
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate contribution snake (snk)
         uses: Platane/snk@v3
         with:
           github_user_name: riyasarkarofficial
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: dist
 
-      - name: Push to Output Branch
-        uses: crazy-max/ghaction-github-pages@v2.6.0
-        with:
-          target_branch: output
-          build_dir: dist
+      - name: Show generated files
+        run: |
+          ls -la dist || true
+
+      - name: Commit and push generated SVGs to 'output' branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # create orphan output branch if it doesn't exist, otherwise checkout it
+          if git ls-remote --exit-code --heads origin output; then
+            git fetch origin output
+            git checkout output
+          else
+            git checkout --orphan output
+            git rm -rf .
+          fi
+          # copy generated files into repo root
+          rm -rf github-contribution-grid-*
+          cp -r dist/* .
+          git add -A
+          git commit -m "chore: update contribution snake" || echo "no changes to commit"
+          git push --set-upstream origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
