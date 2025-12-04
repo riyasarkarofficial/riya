@@ -1,6 +1,6 @@
 
 <!-- Animated Header -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&color=FF5733&width=800&lines=Hi+👋,+I'm+ RIYA;AI/ML+Engineer,+India;Deep+Learning+%7C+Medical+Image+Analysis)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&color=FF5733&width=800&lines=Hi+👋,+I'm+Riya;AI/ML+Engineer,+India;Deep+Learning+%7C+Medical+Image+Analysis)](https://git.io/typing-svg)
 
 ---
 
