@@ -15,7 +15,6 @@
 ## 📊 GitHub Stats  
 ![Riya's GitHub Stats]([https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical](https://github.com/riyasarkarofficial))  
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=your-github-username&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=radical)
 
 ---
 
@@ -24,7 +23,6 @@
 ### **Languages & Frameworks**
 ![Python](https://img.shields.io/badge/Python-FFD43B?logo=python&logoColor=blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white)
 
 ### **Computer Vision**
@@ -45,7 +43,6 @@ Image Segmentation • Classification • Augmentation (Albumentations)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
 ---
-
 ## 🚀 Featured Projects  
 
 ### 🔬 **Medical Image Segmentation (U-Net / U-Net++ / U-Net3+)**
@@ -56,18 +53,11 @@ Image Segmentation • Classification • Augmentation (Albumentations)
 ### 🧪 **Binary Image Classification (EfficientNet-B0)**
 - Malignant vs Benign classification  
 - Achieved >98% benchmark accuracy  
-
-### 🖥️ **Streamlit App for Medical Segmentation**
-- Upload → preprocess → segment → visualize  
-- Built using PyTorch + Albumentations  
-
-*(You can add GitHub repo links here later)*
-
 ---
 
 ## 📫 Connect With Me  
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:your-email@gmail.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin-id)
+[![Gmail](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new)  
+[![LinkedIn](https://www.linkedin.com/in/riyasarkarofficial/)
 
 ---
 
