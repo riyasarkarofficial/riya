@@ -1,10 +1,9 @@
-name: Generate Snake
+name: Generate Snake (Safer)
 
-# We allow manual runs + scheduled runs
 on:
-  workflow_dispatch:    # lets you run it manually from Actions UI
+  workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"  # every 12 hours (optional)
+    - cron: "0 */12 * * *"
 
 jobs:
   build:
@@ -16,33 +15,51 @@ jobs:
           fetch-depth: 0
 
       - name: Generate contribution snake (snk)
+        id: gen_snake
         uses: Platane/snk@v3
         with:
           github_user_name: riyasarkarofficial
           outputs: dist
 
-      - name: Show generated files
+      - name: List generated files (debug)
         run: |
-          ls -la dist || true
+          echo "Working dir: $(pwd)"
+          ls -la || true
+          echo "--- dist content ---"
+          ls -la dist || echo "dist not found"
 
-      - name: Commit and push generated SVGs to 'output' branch
+      - name: Upload generated files as artifact (for debugging)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-dist
+          path: dist
+
+      - name: Push generated SVGs to 'output' branch (only if files exist)
+        if: ${{ always() && (exists('dist') || startsWith(steps.gen_snake.outputs, 'dist')) }}
         run: |
+          set -e
+          # Show what we'll push
+          echo "Files to push:"
+          ls -la dist || { echo "NO FILES: aborting push"; exit 1; }
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # create orphan output branch if it doesn't exist, otherwise checkout it
+
           if git ls-remote --exit-code --heads origin output; then
             git fetch origin output
             git checkout output
+            git rm -rf .
           else
             git checkout --orphan output
             git rm -rf .
           fi
-          # copy generated files into repo root
-          rm -rf github-contribution-grid-*
+
+          # copy generated files into repo root for the output branch
           cp -r dist/* .
+
           git add -A
           git commit -m "chore: update contribution snake" || echo "no changes to commit"
           git push --set-upstream origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
