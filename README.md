@@ -3,17 +3,13 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&color=FF5733&width=800&lines=Hi+👋,+I'm+Riya;AI/ML+Engineer,+India;Deep+Learning+%7C+Medical+Image+Analysis)](https://git.io/typing-svg)
 
 ---
-
 ## 🧑‍💻 About Me  
 - AI/ML Engineer with 2 years of experience  
 - MTech researcher specializing in **deep learning & medical image segmentation**  
-- Interested in U-Net, U-Net++, EfficientNet, CNNs, and attention-based models  
-- Passionate about building reliable ML pipelines using PyTorch  
-
+- Interested in U-Net, U-Net++, EfficientNet, CNNs, and attention-based models    
 ---
 
-## 📊 GitHub Stats  
-![Riya's GitHub Stats]([https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical](https://github.com/riyasarkarofficial))  
+## 📊 GitHub Stats    
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=your-github-username&theme=radical)  
 
 ---
@@ -54,13 +50,6 @@ Image Segmentation • Classification • Augmentation (Albumentations)
 - Malignant vs Benign classification  
 - Achieved >98% benchmark accuracy  
 ---
-
-## 📫 Connect With Me  
-[![Gmail](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new)  
-[![LinkedIn](https://www.linkedin.com/in/riyasarkarofficial/)
-
----
-
 ## 👁️ Visitor Count  
 ![Visitor Count](https://komarev.com/ghpvc/?username=your-github-username&color=blue)
 
