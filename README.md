@@ -63,8 +63,4 @@ Segmentation • Classification • Albumentations
 
 ---
 
-## 👀 Visitor Count  
-![Visitor Count](https://komarev.com/ghpvc/?username=riyasarkarofficial&color=blue)
-
-
 </div>
