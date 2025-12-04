@@ -1,39 +1,52 @@
+<!-- CENTER EVERYTHING -->
+<div align="center">
 
 <!-- Animated Header -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=28&color=FF5733&width=800&lines=Hi+👋,+I'm+Riya;AI/ML+Engineer,+India;Deep+Learning+%7C+Medical+Image+Analysis)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&color=FF5733&center=true&vCenter=true&width=800&lines=Hi+👋,+I'm+Riya;AI/ML+Engineer+from+India;Deep+Learning+%7C+Medical+Image+Analysis)](https://git.io/typing-svg)
 
 ---
+
 ## 🧑‍💻 About Me  
-- AI/ML Engineer with 2 years of experience  
-- MTech researcher specializing in **deep learning & medical image segmentation**  
-- Focus on U-Net, U-Net++, U-Net3+, EfficientNet, CNNs, and attention mechanisms  
+AI/ML Engineer with 2 years of experience  
+MTech researcher specializing in **deep learning & medical image segmentation**  
+Focused on U-Net, U-Net++, U-Net3+, EfficientNet, attention models  
+Passionate about building reliable ML pipelines in PyTorch  
+
+---
+
+## 🏆 GitHub Trophies  
+![Trophies](https://github-profile-trophy.vercel.app/?username=riyasarkarofficial&theme=radical&no-frame=true&margin-w=10)
+
 ---
 
 ## 📊 GitHub Stats  
- 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=riyasarkarofficial&theme=radical)  
+
+<img src="https://github-readme-stats.vercel.app/api?username=riyasarkarofficial&show_icons=true&theme=radical" height="160"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=riyasarkarofficial&theme=radical" height="160"/>
+<br>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=riyasarkarofficial&layout=compact&theme=radical" height="150"/>
 
 ---
 
 ## 🛠️ Tech Stack  
 
-### **Languages & Frameworks**
+### Languages & Frameworks  
 ![Python](https://img.shields.io/badge/Python-FFD43B?logo=python&logoColor=blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white)
 
-### **Computer Vision**
+### Computer Vision  
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)  
 U-Net • U-Net++ • U-Net3+ • EfficientNet • Attention  
-Image Segmentation • Classification • Albumentations  
+Segmentation • Classification • Albumentations  
 
-### **Data & Tools**
+### Data & Tools  
 ![Numpy](https://img.shields.io/badge/Numpy-013243?logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white)
 ![Albumentations](https://img.shields.io/badge/Albumentations-8A2BE2)
 
-### **Deployment & Dev Tools**
+### Deployment & Dev Tools  
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
@@ -43,14 +56,23 @@ Image Segmentation • Classification • Albumentations
 ## 🚀 Featured Projects  
 
 ### 🔬 **Medical Image Segmentation (U-Net / U-Net++ / U-Net3+)**
-- Multi-class cervical cytology segmentation  
-- Custom losses (Dice, Elastic Dice, BCE, Focal Tversky)  
-- Achieved strong Dice & IoU performance  
+• Multi-class cervical cytology segmentation  
+• Custom loss functions (Dice, Elastic Dice, BCE, Focal Tversky)  
+• Achieved strong Dice & IoU  
 
 ### 🧪 **Binary Image Classification (EfficientNet-B0)**
-- Malignant vs Benign detection  
-- Benchmark accuracy: **> 99%**  
+• Malignant vs Benign classifier  
+• Benchmark accuracy: **> 99%**
 
 ---
 
+## 🐍 Contribution Snake  
+![Snake animation](https://raw.githubusercontent.com/riyasarkarofficial/riyasarkarofficial/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![Snake animation](https://raw.githubusercontent.com/riyasarkarofficial/riyasarkarofficial/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
+---
+
+## 👀 Visitor Count  
+![Visitor Count](https://komarev.com/ghpvc/?username=riyasarkarofficial&color=blue)
+
+</div>
